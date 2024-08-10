@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cinzel+Decorative:wght@400;700;900&family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@keyframes wind {
+  0% { transform: rotate(0deg) translateX(0px); }
+      50% { transform: rotate(5deg) translateX(0px); }
+      100% { transform: rotate(0deg) translateX(0); }
+}
+
+.windy {
+  animation: wind 2s infinite;
+}
+@keyframes windRight {
+  0% { transform: rotate(0deg) translateX(0); }
+      50% { transform: rotate(3deg) translateX(0);}
+      100% { transform: rotate(0deg) translateX(0); }
+     
+}
+.windyRight {
+  animation: windRight 2s infinite;
+}
+@keyframes windleft {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(2deg); }
+  100% { transform: rotate(0deg); }
+     
+}
+
+.windyleft {
+  animation: windleft 2s infinite;
+}
+.windy-bottom-left {
+  transform-origin:  bottom center;
+  
+}
+
+.windy-top-left {
+  transform-origin:left;
+}
+
+.windy-bottom-right {
+  transform-origin:  right;
+ 
+  
+}
+.playwrite-gb-s{
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+.alex-brush-regular {
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cinzel-decorative-black {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.quicksand{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.lora{
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.dancing-script{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: "auto";
+}
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dosis{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+  }
+  .top-img {
+    position:"absolute";
+    top:"-25px" ;
+    left:"50%";
+    transform:"translateX(-50%)";
+    width:"100%";
+    object-fit:"contain";
+  }
